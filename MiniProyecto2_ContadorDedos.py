@@ -54,7 +54,7 @@ while True:
     # Muestra el video
     cv2.imshow("Contador de Dedos", frame)
 
-    if cv2.waitKey(1) & 0xFF == 27:  # Presiona ESC para salir
+    if cv2.waitKey(1) & 0xFF == 27:  # Presionar ESC para salir
         break
 
 cap.release()
