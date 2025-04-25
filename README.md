@@ -26,13 +26,13 @@ El Arduino recibe datos como texto (por ejemplo, "3\n"), lo convierte a número 
 
 Display de 7 segmentos:
 
-Usas un array numeros[6][7] para definir qué segmentos deben encenderse para cada número del 0 al 5.
+Un array numeros[6][7] para definir qué segmentos deben encenderse para cada número del 0 al 5.
 
 El mostrarNumero() enciende los pines correspondientes del display según el número recibido.
 
 Tipo de Display:
 
-Estás usando un display de ánodo común, por eso enciendes un segmento escribiendo LOW, y apagas con HIGH.
+Usando un display de ánodo común, se enciende un segmento escribiendo LOW, y se apaga con HIGH.
 
 📦 Conexión General
 PC → Python: Detecta dedos y envía número por USB.
